@@ -1,0 +1,57 @@
+/* Оформлення ротатора */
+#rotator {
+    text-align: center;
+}
+
+#imageNumber {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+#imageContainer {
+    position: relative;
+    margin: 20px auto;
+}
+
+#prevButton, #nextButton {
+    position: absolute;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #0074d9;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#prevButton {
+    left: 20px;
+}
+
+#nextButton {
+    right: 20px;
+}
+
+#photo {
+    max-width: 100%;
+    height: auto;
+}
+
+#currentPhotoNumber {
+    font-weight: bold;
+}
+
+#photoNumber {
+    font-size: 16px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#photoTitle {
+    font-size: 24px;
+}
+
+#photoDescription {
+    font-size: 18px;
+}
